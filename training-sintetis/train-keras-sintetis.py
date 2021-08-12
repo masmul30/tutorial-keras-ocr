@@ -59,10 +59,10 @@ print('The first generated validation image (below) contains:', text)
 plt.imshow(image)
 
 detector = keras_ocr.detection.Detector(weights='clovaai_general')
-recognizer = keras_ocr.recognition.Recognizer
+recognizer = keras_ocr.recognition.Recognizer(
     alphabet=recognizer_alphabet,
-    weights='kurapan',
-    include_top=False
+    weights='kurapan'
+    #include_top=False
 )
 recognizer.compile()
 for layer in recognizer.backbone.layers:
