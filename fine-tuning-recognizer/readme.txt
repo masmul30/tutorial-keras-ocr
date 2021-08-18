@@ -27,3 +27,8 @@ test_labels =[('./wordset/test/word_1.png', None, 'bada'), ('./wordset/test/word
 contohnya :
 
 python3 fine_tuning_recognizer_custom.py
+
+
+Google collabs untuk fine_tuning_recognizer.py :
+
+https://colab.research.google.com/drive/1kxWjZaJmELwqDEQpul0d7-paGpbtP653?usp=sharing
